@@ -9,6 +9,10 @@
 - 🔕 **省心**：纯菜单栏常驻，无 Dock 图标，低频刷新不打扰
 - 🔒 **零配置**：复用本机 Claude Code 的登录态，不需要填任何密钥
 
+![ClaudeMeter 截图](docs/screenshot.png)
+
+> 📦 **直接下载**：前往 [Releases](https://github.com/aright8-sys/ClaudeMeter/releases/latest) 下载打包好的 `ClaudeMeter.app`，或按下方说明自行构建。
+
 > ### ⚠️ 免责声明
 >
 > 本项目为个人作品，**与 Anthropic 无关，未获其授权或背书**。它使用的是一个
