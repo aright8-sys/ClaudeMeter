@@ -1,6 +1,27 @@
-# ClaudeMeter
+<p align="center">
+  <img src="Assets/AppIcon.png" width="128" height="128" alt="ClaudeMeter logo">
+</p>
 
-一个轻量的 macOS 菜单栏小工具，让你**随时看到 Claude 订阅额度还剩多少**。
+<h1 align="center">ClaudeMeter</h1>
+
+<p align="center">
+  一个轻量的 macOS 菜单栏小工具，让你<strong>随时看到 Claude 订阅额度还剩多少</strong>。
+</p>
+
+<p align="center">
+  <strong>中文</strong> ·
+  <a href="README.en.md">English</a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/platform-macOS%2014%2B-blue?logo=apple" alt="platform">
+  <img src="https://img.shields.io/badge/Swift-SwiftUI-orange?logo=swift&logoColor=white" alt="swift">
+  <img src="https://img.shields.io/badge/license-MIT-green" alt="license">
+</p>
+
+<p align="center">
+  <img src="docs/screenshot.png" width="420" alt="ClaudeMeter 截图">
+</p>
 
 它常驻菜单栏，直接显示当前 **5 小时窗口**的用量百分比和距离重置的倒计时；点开面板还能看到本周额度。数据与终端 `/usage` 命令、桌面端完全一致——因为它读的就是同一个账号级接口，覆盖你所有设备的消耗。
 
@@ -8,8 +29,6 @@
 - 📊 **准确**：账号级真实用量，和 `/usage` 一模一样
 - 🔕 **省心**：纯菜单栏常驻，无 Dock 图标，低频刷新不打扰
 - 🔒 **零配置**：复用本机 Claude Code 的登录态，不需要填任何密钥
-
-![ClaudeMeter 截图](docs/screenshot.png)
 
 > 📦 **直接下载**：前往 [Releases](https://github.com/aright8-sys/ClaudeMeter/releases/latest) 下载打包好的 `ClaudeMeter.app`，或按下方说明自行构建。
 
@@ -78,3 +97,7 @@ Sources/ClaudeMeter/
   Format.swift           显示格式化
 build-app.sh             打包脚本（写入 LSUIElement）
 ```
+
+## 许可证
+
+[MIT](LICENSE)
